@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Brianna J. Lofton">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="gl.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Scope One' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
@@ -24,7 +25,7 @@
 			<li><a href="aux.html">Auxiliaries</a></li>
 			<li><a href="pastor.html">Pastor</a></li>
 			<li><a href="about.html">About</a></li>
-			<!-- <li id="display"></li> -->
+			<li id="display"></li>
 		</ul>
 	</nav>
 	<div id="top">
@@ -73,19 +74,6 @@
 		<p>442 E. Hillsboro St. | Mount Olive, NC 28365 | (919) 658-4183</p>
 		<a href="contact.html"><button>Contact Us</button></a>
 	</footer>
-<script>
-function myFunction(x) {
-    x.classList.toggle("change");
-    $('nav li').slideToggle();
-}
-$("#display").html(
-       $(window).width());
-$(window).resize(function() {
-	location.reload();
-        $("#display").html(
-        $(window).width());
-});
-</script>
 <!-- FormatGoogleCalendar Javascript file -->
 <script src="/js/format-google-calendar.js"></script>
 
