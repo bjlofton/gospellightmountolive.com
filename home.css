@@ -9,7 +9,7 @@
    -webkit-text-stroke-color: #ccc;}
 .parallax {
     /* The image used */
-    background-image: url("img/cross_dark.jpg");
+    background-image: url("../img/cross_dark.jpg");
     background-size: 100%;
 
     /* Set a specific height */
@@ -57,4 +57,19 @@
 }
 @media (max-width: 360px) {
     .welcome {top: 15%;}
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1400px) { 
+    .welcome {top: 10%;}
+    #blurb {top: 50%;}
+}
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1400px) {
+    #blurb {top: 50%;}
+}
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1200px) {
+    #blurb {top: 45%;}
+}
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 768px) {
+    #blurb {top: 25%;}
 }
