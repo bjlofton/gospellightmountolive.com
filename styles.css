@@ -87,3 +87,6 @@ footer button:hover {background-color: #f2f2f2; color: black; border-color: #f2f
     .hamburger {display: inline-block;}
     footer {padding: 20px 0 30px;}
 }
+@media (max-width: 460px) {
+    body {font-size: 18px;}
+}
